@@ -80,12 +80,20 @@ def createCaveList():
     
     #21-25
     caveList.append(cave('genzel farm', latLongDMS(40,53,37,77,42,02),1040,50,'O',H'))
-    caveList.apend(cave('hennign',      latLongDMS(40,51,20,77,37,04),1280,700,'O','F(L)'))
+    caveList.append(cave('hennign',      latLongDMS(40,51,20,77,37,04),1280,700,'O','F(L)'))
     caveList.append(cave('hol-bruck',   latLongDMS(40,51,10,77,37,57),1240,280,'P','F(L)'))
     caveList.append(cave('holter pit',  latLongDMS(40,51,09, 77,37,49),1240, 100, 'P', 'L(VE)'))
     caveList.append(cave('hostermans pit'), latLongDMS(40,53,36,77,26,23),1250,6630,'G','VE'))
     
     # 26-30
+    caveList.append(cave('hostermans fiss', latLongDMS(40,53,21,77,26,36),1120,30,'O','H'))
+    caveList.append(cave('j-4',             latLongDMS(40,51,40,77,44,44),1040,3700,'G','QF'))
+    caveList.append(cave('jacksonville',    latLongDMS(40,59,05,77,38,46),880,40,'O','W'))
+    caveList.append(cave('kepler',          latLongDMS(40,43,14,77,55,09),1240,255,'CN','QH'))
+    caveList.append(cave('madisonburg',     latLongDMS(40,55,43,77,31,07),1300,200,'O','F'))
+    
+    # 31-35
+    
     
         
     return caveList
