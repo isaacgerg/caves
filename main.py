@@ -79,6 +79,13 @@ def createCaveList():
     caveList.append(cave('fry'           latLongDMS(40,42,20,77,58,04),1180,60,'R','H'))
     
     #21-25
+    caveList.append(cave('genzel farm', latLongDMS(40,53,37,77,42,02),1040,50,'O',H'))
+    caveList.apend(cave('hennign',      latLongDMS(40,51,20,77,37,04),1280,700,'O','F(L)'))
+    caveList.append(cave('hol-bruck',   latLongDMS(40,51,10,77,37,57),1240,280,'P','F(L)'))
+    caveList.append(cave('holter pit',  latLongDMS(40,51,09, 77,37,49),1240, 100, 'P', 'L(VE)'))
+    caveList.append(cave('hostermans pit'), latLongDMS(40,53,36,77,26,23),1250,6630,'G','VE'))
+    
+    # 26-30
     
         
     return caveList
