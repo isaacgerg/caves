@@ -73,6 +73,13 @@ def createCaveList():
     
     # 16-20
     caveList.append(cave('elk creek',    latLonDMS(40,56,58,77,24,27),1250,260,'CO','F'))
+    caveList.append(cave('fishing creek',latLonDMS(41,00,2877,32,52),840,40,'O','H'))
+    caveList.append(cave('footbridge',   latLonDMS(40,53,16,77,28,26),1070,50,'O','H'))
+    caveList.append(cave('fox'           latLongDMS(40,51,04,7735,08),1100,60,'O','H'))
+    caveList.append(cave('fry'           latLongDMS(40,42,20,77,58,04),1180,60,'R','H'))
+    
+    #21-25
+    
         
     return caveList
 
