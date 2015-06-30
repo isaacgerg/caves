@@ -93,7 +93,13 @@ def createCaveList():
     caveList.append(cave('madisonburg',     latLongDMS(40,55,43,77,31,07),1300,200,'O','F'))
     
     # 31-35
+    caveList.append(cave('miller',          latLongDMS(40,42,27,77,57,10),1200,1000,'G','H'))
+    caveList.append(cave('millheim',        latLongDMS(40,53,11,77,28,34),1080,250,'O','H'))
+    caveList.append(cave('millheim south',  latLongDMS(40,52,46,77,27,55),1060,130,'O','W'))
+    caveList.append(cave('mine',            latLongDMS(40,53,20,77,42,31),1060,220,'R','QH'))
+    caveList.append(cave('noll',            latLongDMS(40,52,38,77,43,33),1040,420,'CN','H'))
     
+    # 36-40
     
         
     return caveList
