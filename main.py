@@ -100,6 +100,7 @@ def createCaveList():
     caveList.append(cave('noll',            latLongDMS(40,52,38,77,43,33),1040,420,'CN','H'))
     
     # 36-40
+    caveList.append(cave('oal hall',        latLongDMS(40,47,55,77,48,22),1020,200,'P','QW;))
     
         
     return caveList
