@@ -100,7 +100,14 @@ def createCaveList():
     caveList.append(cave('noll',            latLongDMS(40,52,38,77,43,33),1040,420,'CN','H'))
     
     # 36-40
-    caveList.append(cave('oal hall',        latLongDMS(40,47,55,77,48,22),1020,200,'P','QW;))
+    caveList.append(cave('oak hall',        latLongDMS(40,47,55,77,48,22),1020,200,'P','QW'))
+    caveList.append(cave("penn's",          latLongDMS(40,52,55,77,36,45),1151,1700,'C','W'))
+    caveList.append(cave('penns shelter',   latLongDMS(40,52,54,77,36,47),1170,40,'O','H'))
+    caveList.append(cave('pine creek',      latLongDMS(40,52,04,77,27,21),1040,30,'O','H'))
+    caveList.append(cave('ping cr spr house',latlongDMS(40,52,15,77,27,16),1040,25,'O','W'))
+    
+    # 41-45
+    
     
         
     return caveList
