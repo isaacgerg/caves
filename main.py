@@ -115,9 +115,13 @@ def createCaveList():
                     
     # 46-50
     caveList.append(cave('rebersburg',      latLongDMS(40,57,16,77,24,32), 1290,80,'R','H'))
-    
-    
-        
+    caveList.append(cave('roadside',        latLongDMS(40,55,45,77,27,56), 1240,40,'O','H'))
+    caveList.append(cave('rock',            latLongDMS(40,50,48,77,49,32), 940,80,'O','H'))
+    caveList.append(cave('rockview',        latLongDMS(40,49,53,77,47,16), 1190,350,'R','R(L)'))
+    caveList.append(cave('rossman',         latLongDMS(40,52,48,77,30,45), 1210,235,'CO','F'))
+                    
+    # 51-55
+                    
     return caveList
 
 def makeKml(caveList):
