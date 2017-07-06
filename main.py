@@ -110,6 +110,11 @@ def createCaveList():
     caveList.append(cave('pine gr ms shelt',latLongDMS(40,43,40,77,53,05),1440,10,'O','H'))
     caveList.append(cave('pleasant gap',    latLongDMS(0,0,0,0,0,0), 0, 170, 'R', 'QH'))
     caveList.append(cave('poterfield fiss', latLongDMS(40,57,58,77,23,19), 1340,90,'P','H'))
+    caveList.append(cave('prah',            latLongDMS(40,59,44,77,37,50), 900,1100,'O','QH'))
+    caveList.append(cave('racoon',          latLongDMS(40,51,28,77,35,22), 1200,80,'CN','F'))
+                    
+    # 46-50
+    caveList.append(cave('rebersburg',      latLongDMS(40,57,16,77,24,32), 1290,80,'R','H'))
     
     
         
